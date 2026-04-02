@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tree Service in Knoxville, TN | John's Tree Care</title>
+  <meta name="description" content="John's Tree Care provides expert tree removal, trimming, stump grinding, and 24/7 emergency storm response in Knoxville, TN. Call (865) 555-0200 for a free estimate.">
+  <link rel="canonical" href="https://johnstreecare.com/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Tree Service in Knoxville, TN | John's Tree Care">
+  <meta property="og:description" content="Professional tree removal, trimming, stump grinding, and storm damage cleanup in Knoxville, TN.">
+  <meta property="og:url" content="https://johnstreecare.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1765601296884-eb4fabe7fc2e?w=1200">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary:       #14532D;
+      --primary-mid:   #166534;
+      --primary-light:  #22C55E;
+      --accent:        #CA8A04;
+      --accent-light:  #EAB308;
+      --accent-warm:   #FFC857;
+      --bg:            #FAFAF9;
+      --bg-alt:        #F5F5F4;
+      --text:          #1C1917;
+      --text-muted:    #57534E;
+      --white:         #FFFFFF;
+      --border:        #D6D3D1;
+      --dark:          #0C1A12;
+      --gray:          #78716C;
+      --radius-sm:     6px;
+      --radius-md:     16px;
+      --radius-lg:     24px;
+      --font-title:    'Archivo Black', sans-serif;
+      --font-body:     'Inter', sans-serif;
+      --shadow:        0 4px 24px rgba(20,83,45,0.10);
+      --shadow-lg:     0 12px 48px rgba(20,83,45,0.16);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-body); font-size: 1rem; color: var(--text); background: var(--bg); line-height: 1.6; }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    h1, h2, h3, h4 { font-family: var(--font-title); line-height: 1.15; font-weight: 400; }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: 88px 0; }
+    .tag { display: inline-block; font-family: var(--font-body); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+    .section-title { font-size: clamp(2rem, 4vw, 2.8rem); color: var(--text); margin-bottom: 16px; }
+    .section-subtitle { font-size: 1.05rem; color: var(--text-muted); max-width: 600px; line-height: 1.7; }
+    .section-header { margin-bottom: 52px; }
+    .section-header.center { text-align: center; }
+    .section-header.center .section-subtitle { margin: 0 auto; }
+
+    /* BUTTONS — pill shape, 3D press */
+    .btn { display: inline-block; font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; padding: 14px 32px; border-radius: 999px; cursor: pointer; border: none; text-transform: uppercase; letter-spacing: 0.06em; transition: all 0.2s; min-height: 48px; text-align: center; }
+    .btn-primary { background: var(--accent); color: var(--white); border-bottom: 4px solid #a16f03; }
+    .btn-primary:hover { transform: translateY(2px); border-bottom-width: 2px; background: #b07d04; }
+    .btn-outline { background: transparent; color: var(--white); border: 2px solid var(--white); }
+    .btn-outline:hover { background: var(--white); color: var(--primary); }
+    .btn-dark { background: var(--primary); color: var(--white); border-bottom: 4px solid #0a3318; }
+    .btn-dark:hover { transform: translateY(2px); border-bottom-width: 2px; background: var(--primary-mid); }
+
+    /* NAVBAR */
+    .navbar { position: sticky; top: 0; z-index: 900; background: var(--primary); transition: background 0.3s, box-shadow 0.3s; }
+    .navbar.scrolled { background: rgba(20,83,45,0.95); backdrop-filter: blur(12px); box-shadow: 0 2px 20px rgba(0,0,0,0.2); }
+    .navbar-inner { display: flex; align-items: center; justify-content: space-between; padding: 14px 24px; max-width: 1440px; margin: 0 auto; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; }
+    .nav-logo-icon { width: 42px; height: 42px; background: var(--accent); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .nav-logo-icon svg { width: 26px; height: 26px; fill: var(--white); }
+    .nav-logo-text { font-family: var(--font-title); font-size: 1.2rem; color: var(--white); line-height: 1.1; }
+    .nav-logo-text span { display: block; font-family: var(--font-body); font-size: 0.85rem; font-weight: 400; color: rgba(255,255,255,0.6); }
+    .nav-links { display: flex; align-items: center; gap: 28px; list-style: none; }
+    .nav-links a { font-size: 0.9rem; font-weight: 600; color: rgba(255,255,255,0.8); transition: color 0.2s; }
+    .nav-links a:hover { color: var(--accent-light); }
+    .nav-cta { display: flex; align-items: center; gap: 16px; }
+    .nav-phone { font-size: 0.95rem; font-weight: 700; color: var(--accent-light); padding: 6px 16px; background: rgba(202,138,4,0.15); border-radius: 999px; border: 1px solid rgba(202,138,4,0.3); }
+    .nav-phone:hover { background: rgba(202,138,4,0.25); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); border-radius: 2px; transition: all 0.3s; }
+    .mobile-menu { display: none; flex-direction: column; background: var(--primary); border-top: 1px solid rgba(255,255,255,0.1); padding: 16px 24px 24px; }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { font-size: 1rem; font-weight: 600; color: rgba(255,255,255,0.85); padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    .mobile-menu .btn { margin-top: 16px; width: 100%; }
+
+    /* HERO — flipped: image LEFT, content RIGHT */
+    .hero { display: grid; grid-template-columns: 50% 50%; min-height: 580px; }
+    .hero-image { position: relative; overflow: hidden; }
+    .hero-image img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-image-overlay { position: absolute; inset: 0; background: linear-gradient(to left, rgba(20,83,45,0.25), transparent 60%); }
+    .hero-content { background: var(--bg); padding: 72px 56px; display: flex; flex-direction: column; justify-content: center; }
+    .hero-tag { display: inline-block; background: rgba(20,83,45,0.08); color: var(--primary); font-family: var(--font-body); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; padding: 8px 16px; border-radius: 999px; margin-bottom: 20px; border: 1px solid rgba(20,83,45,0.15); }
+    .hero h1 { font-size: clamp(2.4rem, 4.5vw, 3.6rem); color: var(--text); margin-bottom: 20px; line-height: 1.08; }
+    .hero h1 .accent { color: var(--primary-light); }
+    .hero-subtitle { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 28px; max-width: 480px; line-height: 1.7; }
+    .hero-phone { display: inline-flex; align-items: center; gap: 8px; font-size: 1.4rem; font-weight: 700; color: var(--primary); margin-bottom: 32px; }
+    .hero-phone svg { width: 22px; height: 22px; fill: var(--accent); }
+    .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
+    /* TRUST BAR */
+    .trust-bar { background: var(--primary); border-top: 3px solid var(--accent); padding: 16px 0; overflow: hidden; }
+    .trust-bar-track { display: flex; align-items: center; gap: 48px; max-width: 1200px; margin: 0 auto; padding: 0 24px; justify-content: center; flex-wrap: wrap; }
+    .trust-item { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; font-weight: 600; color: rgba(255,255,255,0.9); white-space: nowrap; }
+    .trust-item svg { width: 18px; height: 18px; fill: var(--accent-light); flex-shrink: 0; }
+
+    /* DIAGONAL DIVIDER */
+    .divider-angle { width: 100%; height: 60px; margin-top: -1px; }
+
+    /* SERVICES — 2-col staggered offset */
+    .services-section { background: var(--bg); }
+    .services-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .services-grid > :nth-child(even) { transform: translateY(40px); }
+    .service-card { background: var(--white); border-left: 5px solid var(--accent); border-radius: var(--radius-md); padding: 32px 28px; box-shadow: var(--shadow); transition: transform 0.25s, box-shadow 0.25s; }
+    .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+    .services-grid > :nth-child(even):hover { transform: translateY(34px); box-shadow: var(--shadow-lg); }
+    .service-badge { display: inline-block; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); background: rgba(202,138,4,0.1); padding: 4px 10px; border-radius: 999px; margin-bottom: 14px; }
+    .service-icon { width: 56px; height: 56px; background: var(--primary); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 18px; }
+    .service-icon svg { width: 28px; height: 28px; }
+    .service-card h3 { font-size: 1.2rem; color: var(--primary); margin-bottom: 10px; }
+    .service-card p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 18px; line-height: 1.6; }
+    .service-link { display: inline-flex; align-items: center; gap: 6px; font-size: 0.9rem; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; transition: gap 0.2s; }
+    .service-link:hover { gap: 10px; }
+    .service-link svg { width: 16px; height: 16px; }
+
+    /* COST ESTIMATOR */
+    .estimator-section { background: var(--primary); position: relative; }
+    .estimator-wrapper { max-width: 800px; margin: 0 auto; }
+    .estimator-section .tag { color: var(--accent-light); }
+    .estimator-section .section-title { color: var(--white); }
+    .estimator-section .section-subtitle { color: rgba(255,255,255,0.7); }
+    .estimator-card { background: var(--white); border-radius: var(--radius-lg); padding: 40px; box-shadow: var(--shadow-lg); border-left: 5px solid var(--accent); }
+    .estimator-group { margin-bottom: 28px; }
+    .estimator-label { font-weight: 700; font-size: 0.95rem; color: var(--text); margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; }
+    .estimator-value { font-weight: 700; color: var(--primary); background: rgba(20,83,45,0.06); padding: 2px 10px; border-radius: 999px; font-size: 0.85rem; }
+    .slider-wrap { position: relative; padding: 0 0 8px; }
+    .slider-ticks { display: flex; justify-content: space-between; margin-top: 8px; }
+    .slider-ticks span { font-size: 0.75rem; color: var(--text-muted); font-weight: 500; }
+    input[type="range"] { -webkit-appearance: none; appearance: none; width: 100%; height: 8px; background: var(--border); border-radius: 999px; outline: none; cursor: pointer; }
+    input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; width: 28px; height: 28px; background: var(--accent); border: 4px solid var(--white); border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; transition: transform 0.15s; }
+    input[type="range"]::-webkit-slider-thumb:hover { transform: scale(1.15); }
+    input[type="range"]::-moz-range-thumb { width: 28px; height: 28px; background: var(--accent); border: 4px solid var(--white); border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; }
+    .service-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+    .service-btn { padding: 10px 20px; border: 2px solid var(--border); background: var(--white); border-radius: 999px; font-family: var(--font-body); font-size: 0.85rem; font-weight: 700; color: var(--text-muted); cursor: pointer; transition: all 0.2s; text-transform: uppercase; letter-spacing: 0.04em; }
+    .service-btn.active { border-color: var(--primary); background: var(--primary); color: var(--white); }
+    .service-btn:hover:not(.active) { border-color: var(--primary); color: var(--primary); }
+    .estimate-output { text-align: center; padding: 28px 0 8px; border-top: 1px solid var(--border); margin-top: 28px; }
+    .estimate-label { font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; margin-bottom: 8px; }
+    .estimate-range { font-family: var(--font-title); font-size: clamp(2.4rem, 5vw, 3.2rem); color: var(--primary); }
+    .estimate-range .dash { color: var(--border); margin: 0 4px; }
+    .estimate-note { font-size: 0.8rem; color: var(--gray); margin-top: 8px; }
+    .estimate-cta { margin-top: 20px; }
+    .tree-visual { display: flex; justify-content: center; margin-bottom: 28px; }
+    .tree-visual svg { transition: height 0.4s ease; }
+
+    /* TRUST — Donut rings + Timeline */
+    .trust-section { background: var(--bg); }
+    .donut-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+    .donut-stat { text-align: center; padding: 28px 16px; }
+    .donut-wrap { position: relative; width: 120px; height: 120px; margin: 0 auto 16px; }
+    .donut-wrap svg { transform: rotate(-90deg); }
+    .donut-bg { fill: none; stroke: var(--border); stroke-width: 8; }
+    .donut-fill { fill: none; stroke: var(--primary-light); stroke-width: 8; stroke-linecap: round; transition: stroke-dashoffset 2s ease; }
+    .donut-number { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: var(--font-title); font-size: 1.6rem; color: var(--primary); }
+    .donut-label { font-size: 0.9rem; color: var(--text-muted); font-weight: 600; }
+
+    /* Timeline */
+    .timeline { position: relative; max-width: 700px; margin: 56px auto 0; padding: 0 20px; }
+    .timeline::before { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 3px; background: var(--accent); transform: translateX(-50%); border-radius: 3px; }
+    .timeline-item { position: relative; width: 50%; padding: 0 40px 40px; opacity: 0; transform: translateY(30px); transition: all 0.6s ease; }
+    .timeline-item.visible { opacity: 1; transform: translateY(0); }
+    .timeline-item:nth-child(odd) { margin-left: 0; text-align: right; }
+    .timeline-item:nth-child(even) { margin-left: 50%; }
+    .timeline-dot { position: absolute; top: 4px; width: 16px; height: 16px; background: var(--accent); border: 3px solid var(--bg); border-radius: 50%; z-index: 2; }
+    .timeline-item:nth-child(odd) .timeline-dot { right: -8px; }
+    .timeline-item:nth-child(even) .timeline-dot { left: -8px; }
+    .timeline-item p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; }
+    .timeline-item p strong { color: var(--text); }
+
+    /* REVIEWS — 3D Carousel */
+    .reviews-section { background: var(--primary); overflow: hidden; }
+    .reviews-section .tag { color: var(--accent-light); }
+    .reviews-section .section-title { color: var(--white); }
+    .reviews-section .section-subtitle { color: rgba(255,255,255,0.7); }
+    .carousel-viewport { perspective: 1200px; overflow: visible; position: relative; height: 320px; margin: 0 auto; max-width: 700px; }
+    .carousel-track { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform 0.6s ease; }
+    .carousel-card { position: absolute; width: 100%; max-width: 560px; left: 50%; top: 50%; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); border-radius: var(--radius-md); padding: 32px; backdrop-filter: blur(6px); transition: all 0.6s ease; }
+    .carousel-card.center { transform: translate(-50%, -50%) scale(1) translateZ(0); opacity: 1; z-index: 3; }
+    .carousel-card.left { transform: translate(-110%, -50%) scale(0.82) translateZ(-100px); opacity: 0.4; z-index: 1; pointer-events: none; }
+    .carousel-card.right { transform: translate(10%, -50%) scale(0.82) translateZ(-100px); opacity: 0.4; z-index: 1; pointer-events: none; }
+    .carousel-card.hidden { opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(0.7) translateZ(-200px); }
+    .review-stars { display: flex; gap: 3px; margin-bottom: 14px; }
+    .review-stars svg { width: 18px; height: 18px; fill: var(--accent-light); }
+    .review-text { font-size: 0.95rem; color: rgba(255,255,255,0.9); line-height: 1.7; font-style: italic; margin-bottom: 20px; }
+    .review-author { display: flex; align-items: center; gap: 12px; }
+    .review-avatar { width: 42px; height: 42px; background: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: var(--font-title); font-size: 1.1rem; color: var(--white); flex-shrink: 0; }
+    .review-name { font-weight: 700; font-size: 0.95rem; color: var(--white); }
+    .review-date { font-size: 0.85rem; color: rgba(255,255,255,0.5); }
+    .carousel-controls { display: flex; justify-content: center; gap: 16px; margin-top: 28px; }
+    .carousel-btn { width: 48px; height: 48px; border-radius: 50%; border: 2px solid rgba(255,255,255,0.3); background: transparent; color: white; font-size: 1.2rem; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; justify-content: center; }
+    .carousel-btn:hover { background: var(--accent); border-color: var(--accent); }
+    .carousel-dots { display: flex; justify-content: center; gap: 8px; margin-top: 16px; }
+    .carousel-dot { width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.3); cursor: pointer; transition: background 0.3s; }
+    .carousel-dot.active { background: var(--accent-light); }
+
+    /* SERVICE AREA — Map + list */
+    .area-section { background: var(--bg-alt); }
+    .area-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
+    .area-map-wrap { position: relative; }
+    .area-map-wrap svg { width: 100%; max-width: 480px; }
+    .area-map-wrap svg path { fill: var(--border); stroke: var(--white); stroke-width: 1.5; cursor: pointer; transition: fill 0.2s; }
+    .area-map-wrap svg path:hover, .area-map-wrap svg path.active { fill: var(--primary-light); }
+    .map-tooltip { position: absolute; background: var(--primary); color: white; font-size: 0.8rem; font-weight: 700; padding: 6px 12px; border-radius: var(--radius-sm); pointer-events: none; opacity: 0; transition: opacity 0.2s; white-space: nowrap; z-index: 10; }
+    .map-tooltip.show { opacity: 1; }
+    .area-group { margin-bottom: 28px; }
+    .area-group h4 { font-family: var(--font-title); font-size: 0.95rem; color: var(--primary); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .area-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+    .area-pill { padding: 6px 14px; background: var(--white); border: 2px solid var(--border); border-radius: 999px; font-size: 0.85rem; font-weight: 600; color: var(--text-muted); transition: all 0.2s; cursor: default; }
+    .area-pill.active, .area-pill:hover { background: var(--primary); border-color: var(--primary); color: var(--white); }
+    .area-cta { margin-top: 24px; }
+    .area-cta p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 16px; }
+
+    /* FAQ — Tabbed + Searchable Flip Cards */
+    .faq-section { background: var(--bg); }
+    .faq-search { position: relative; max-width: 480px; margin: 0 auto 24px; }
+    .faq-search input { width: 100%; height: 52px; padding: 0 20px 0 48px; border: 2px solid var(--border); border-radius: 999px; font-family: var(--font-body); font-size: 0.95rem; outline: none; background: var(--white); transition: border-color 0.2s; }
+    .faq-search input:focus { border-color: var(--primary); }
+    .faq-search svg { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); width: 20px; height: 20px; fill: var(--gray); }
+    .faq-tabs { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 36px; }
+    .faq-tab { padding: 8px 18px; border-radius: 999px; border: 2px solid var(--accent); background: transparent; font-family: var(--font-body); font-size: 0.8rem; font-weight: 700; color: var(--accent); cursor: pointer; transition: all 0.2s; text-transform: uppercase; letter-spacing: 0.06em; }
+    .faq-tab.active { background: var(--accent); color: var(--white); }
+    .faq-tab:hover:not(.active) { background: rgba(202,138,4,0.08); }
+    .faq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; max-width: 900px; margin: 0 auto; }
+    .faq-flip { perspective: 800px; height: 180px; cursor: pointer; transition: opacity 0.3s, transform 0.3s; }
+    .faq-flip.hidden { opacity: 0; transform: scale(0.95); pointer-events: none; position: absolute; }
+    .faq-flip-inner { position: relative; width: 100%; height: 100%; transition: transform 0.6s; transform-style: preserve-3d; }
+    .faq-flip.flipped .faq-flip-inner { transform: rotateY(180deg); }
+    .faq-front, .faq-back { position: absolute; inset: 0; backface-visibility: hidden; border-radius: var(--radius-md); padding: 24px; display: flex; flex-direction: column; justify-content: center; }
+    .faq-front { background: var(--white); border-left: 5px solid var(--accent); box-shadow: var(--shadow); }
+    .faq-front h3 { font-size: 1rem; color: var(--primary); line-height: 1.35; }
+    .faq-front .flip-hint { font-size: 0.75rem; color: var(--gray); margin-top: auto; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
+    .faq-back { background: var(--bg-alt); border-left: 5px solid var(--primary); box-shadow: var(--shadow); transform: rotateY(180deg); }
+    .faq-back p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; }
+    .faq-back .flip-hint { font-size: 0.75rem; color: var(--gray); margin-top: auto; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
+
+    /* CTA */
+    .cta-section { background: linear-gradient(135deg, var(--accent), var(--accent-warm)); position: relative; overflow: hidden; }
+    .cta-section::before { content: ''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 0 L40 20 L20 40 L0 20 Z' fill='rgba(255,255,255,0.06)'/%3E%3C/svg%3E") repeat; }
+    .cta-inner { position: relative; text-align: center; padding: 16px 0; }
+    .cta-inner h2 { font-size: clamp(1.8rem, 3.5vw, 2.6rem); color: var(--white); margin-bottom: 8px; }
+    .cta-inner p { font-size: 1rem; color: rgba(255,255,255,0.9); margin-bottom: 28px; }
+    .cta-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .cta-phone { font-family: var(--font-title); font-size: 1.3rem; color: var(--white); }
+
+    /* FOOTER */
+    .footer { background: var(--dark); color: rgba(255,255,255,0.7); padding: 64px 0 0; }
+    .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 48px; }
+    .footer-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+    .footer-logo-icon { width: 38px; height: 38px; background: var(--accent); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; }
+    .footer-logo-icon svg { width: 22px; height: 22px; fill: white; }
+    .footer-logo-text { font-family: var(--font-title); font-size: 1.1rem; color: var(--white); }
+    .footer-desc { font-size: 0.9rem; line-height: 1.7; margin-bottom: 20px; }
+    .footer-contact a { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--accent-light); font-weight: 600; margin-bottom: 8px; }
+    .footer-contact a svg { width: 16px; height: 16px; fill: var(--accent); }
+    .footer h4 { font-family: var(--font-title); font-size: 0.9rem; color: var(--white); margin-bottom: 14px; text-transform: uppercase; letter-spacing: 0.08em; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .footer-links a { font-size: 0.9rem; color: rgba(255,255,255,0.6); transition: color 0.2s; }
+    .footer-links a:hover { color: var(--accent-light); }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.08); padding: 20px 0; display: flex; align-items: center; justify-content: space-between; font-size: 0.85rem; color: rgba(255,255,255,0.35); }
+    .footer-bottom a { color: rgba(255,255,255,0.35); }
+    .footer-bottom a:hover { color: var(--accent-light); }
+
+    /* MODAL */
+    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 9000; display: none; align-items: center; justify-content: center; padding: 24px; }
+    .modal-overlay.open { display: flex; }
+    .modal { background: var(--white); border-radius: var(--radius-lg); max-width: 480px; width: 100%; box-shadow: var(--shadow-lg); overflow: hidden; animation: modalIn 0.35s ease; }
+    @keyframes modalIn { from { transform: translateY(-20px) scale(0.97); opacity: 0; } to { transform: translateY(0) scale(1); opacity: 1; } }
+    .modal-header { background: var(--primary); padding: 22px 24px; display: flex; align-items: center; justify-content: space-between; position: relative; overflow: hidden; }
+    .modal-header::after { content: ''; position: absolute; right: -20px; top: -20px; width: 120px; height: 120px; background: var(--accent); border-radius: 50%; opacity: 0.15; }
+    .modal-header h3 { font-family: var(--font-title); font-size: 1.15rem; color: var(--white); position: relative; z-index: 1; }
+    .modal-close { background: rgba(255,255,255,0.15); border: none; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; color: var(--white); font-size: 1.2rem; line-height: 1; transition: background 0.2s; position: relative; z-index: 1; }
+    .modal-close:hover { background: rgba(255,255,255,0.3); }
+    .modal-body { padding: 28px 24px; }
+    .modal-field { margin-bottom: 14px; }
+    .modal-field label { display: block; font-size: 0.85rem; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .modal-field input, .modal-field select, .modal-field textarea { width: 100%; padding: 12px 18px; border: 2px solid var(--border); border-radius: 999px; font-family: var(--font-body); font-size: 0.95rem; color: var(--text); outline: none; transition: border-color 0.2s; background: var(--white); }
+    .modal-field textarea { border-radius: var(--radius-md); height: 80px; resize: vertical; }
+    .modal-field input:focus, .modal-field select:focus, .modal-field textarea:focus { border-color: var(--primary); }
+    .modal-submit { width: 100%; padding: 16px; background: var(--accent); color: var(--white); font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; border: none; border-bottom: 4px solid #a16f03; border-radius: 999px; cursor: pointer; margin-top: 4px; transition: all 0.2s; text-transform: uppercase; letter-spacing: 0.06em; }
+    .modal-submit:hover { transform: translateY(2px); border-bottom-width: 2px; background: #b07d04; }
+    .modal-thankyou { display: none; text-align: center; padding: 48px 24px; }
+    .modal-thankyou.show { display: block; }
+    .thankyou-check { width: 72px; height: 72px; margin: 0 auto 20px; }
+    .thankyou-check circle { fill: none; stroke: var(--primary-light); stroke-width: 2; stroke-dasharray: 200; stroke-dashoffset: 200; animation: drawCircle 0.6s ease forwards; }
+    .thankyou-check path { fill: none; stroke: var(--primary); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 40; stroke-dashoffset: 40; animation: drawCheck 0.4s 0.5s ease forwards; }
+    @keyframes drawCircle { to { stroke-dashoffset: 0; } }
+    @keyframes drawCheck { to { stroke-dashoffset: 0; } }
+    .modal-thankyou h3 { font-family: var(--font-title); font-size: 1.5rem; color: var(--primary); margin-bottom: 10px; }
+    .modal-thankyou p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 24px; }
+
+    /* MOBILE STICKY CTA */
+    .mobile-cta { position: fixed; bottom: 0; left: 0; right: 0; background: var(--primary); padding: 12px 16px; display: none; gap: 10px; z-index: 800; box-shadow: 0 -4px 20px rgba(0,0,0,0.2); }
+    .mobile-cta.show { display: flex; }
+    .mobile-cta a, .mobile-cta button { flex: 1; text-align: center; padding: 14px; border-radius: 999px; font-family: var(--font-body); font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.04em; border: none; cursor: pointer; }
+    .mobile-cta a { background: var(--white); color: var(--primary); }
+    .mobile-cta button { background: var(--accent); color: var(--white); }
+
+    /* SCROLL REVEAL */
+    .reveal { opacity: 0; transform: translateY(40px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-children > * { opacity: 0; transform: translateY(30px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .reveal-children.visible > * { opacity: 1; transform: translateY(0); }
+    .reveal-children.visible > *:nth-child(1) { transition-delay: 0s; }
+    .reveal-children.visible > *:nth-child(2) { transition-delay: 0.1s; }
+    .reveal-children.visible > *:nth-child(3) { transition-delay: 0.2s; }
+    .reveal-children.visible > *:nth-child(4) { transition-delay: 0.25s; }
+    .reveal-children.visible > *:nth-child(5) { transition-delay: 0.3s; }
+    .reveal-children.visible > *:nth-child(6) { transition-delay: 0.35s; }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-image { height: 360px; order: -1; }
+      .services-grid { grid-template-columns: 1fr 1fr; }
+      .services-grid > :nth-child(even) { transform: translateY(0); }
+      .services-grid > :nth-child(even):hover { transform: translateY(-6px); }
+      .donut-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .area-inner { grid-template-columns: 1fr; gap: 32px; }
+      .faq-grid { grid-template-columns: 1fr; }
+      .faq-flip { height: 160px; }
+    }
+    @media (max-width: 768px) {
+      .section-pad { padding: 60px 0; }
+      .nav-links { display: none; }
+      .nav-cta .btn { display: none; }
+      .hamburger { display: flex; }
+      .hero-content { padding: 40px 24px; }
+      .services-grid { grid-template-columns: 1fr; }
+      .donut-grid { grid-template-columns: 1fr 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .cta-actions { flex-direction: column; align-items: center; }
+      .carousel-card { padding: 24px; }
+      .carousel-viewport { height: 340px; }
+      .timeline::before { left: 20px; }
+      .timeline-item { width: 100%; margin-left: 0 !important; padding-left: 50px; padding-right: 0; text-align: left !important; }
+      .timeline-dot { left: 12px !important; right: auto !important; }
+      .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+      .trust-bar-track { gap: 24px; }
+      .estimator-card { padding: 28px 20px; }
+      .service-btns { flex-wrap: wrap; }
+    }
+    @media (max-width: 480px) {
+      .donut-grid { grid-template-columns: 1fr; }
+      .hero-actions { flex-direction: column; }
+      .hero-actions .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar-inner">
+    <a href="/" class="nav-logo" aria-label="John's Tree Care home">
+      <div class="nav-logo-icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 8C8 10 5.9 16.17 3.82 21H5.71C7 18 8 16.12 9 15c2 2 4 6 4 6h2s-1-4-3-6c1-1 2.5-2 5-2 0 0-1.5 1-2 3 .67-.33 1.5-.5 2-.5C18 15 20 12.5 20 9c-1.5 1-2.5 2-4 2 .5-1 2-3 2-3H17Z"/></svg>
+      </div>
+      <div class="nav-logo-text">
+        John's Tree Care
+        <span>Knoxville, TN</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/#services">Services</a></li>
+      <li><a href="/#about">About</a></li>
+      <li><a href="/#reviews">Reviews</a></li>
+      <li><a href="/#service-area">Service Area</a></li>
+      <li><a href="/#faq">FAQ</a></li>
+      <li><a href="/#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="tel:8655550200" class="nav-phone">(865) 555-0200</a>
+      <button class="btn btn-primary" data-quote-trigger>Free Estimate</button>
+    </div>
+    <button class="hamburger" id="menuToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" role="menu">
+    <a href="/#services">Services</a>
+    <a href="/#about">About</a>
+    <a href="/#reviews">Reviews</a>
+    <a href="/#service-area">Service Area</a>
+    <a href="/#faq">FAQ</a>
+    <a href="/#contact">Contact</a>
+    <a href="tel:8655550200" class="btn btn-primary" style="margin-top:12px;">(865) 555-0200 — Call Now</a>
+    <button class="btn btn-dark" data-quote-trigger style="margin-top:8px;">Free Estimate</button>
+  </div>
+</nav>
+
+<!-- HERO — Image LEFT, content RIGHT -->
+<section class="hero" aria-label="Hero">
+  <div class="hero-image">
+    <img src="https://images.unsplash.com/photo-1765601296884-eb4fabe7fc2e?w=900&q=80" alt="Aerial view of Knoxville neighborhood with mature trees serviced by John's Tree Care" loading="eager">
+    <div class="hero-image-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-tag">Knoxville's Trusted Tree Experts</div>
+    <h1>Professional Tree Service for <span class="accent">Knoxville</span> Homeowners</h1>
+    <p class="hero-subtitle">Expert tree removal, precision trimming, stump grinding, and 24/7 emergency storm response — serving Knoxville and the surrounding communities in East Tennessee.</p>
+    <a href="tel:8655550200" class="hero-phone">
+      <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8Z"/></svg>
+      (865) 555-0200
+    </a>
+    <div class="hero-actions">
+      <button class="btn btn-primary" data-quote-trigger>Get a Free Estimate</button>
+      <a href="tel:8655550200" class="btn btn-dark">Call Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-bar-track">
+    <div class="trust-item"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 4.9 Star Average</div>
+    <div class="trust-item"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg> Licensed &amp; Insured</div>
+    <div class="trust-item"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> ISA Certified Arborists</div>
+    <div class="trust-item"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg> 700+ Trees Removed</div>
+    <div class="trust-item"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg> 24/7 Emergency Service</div>
+  </div>
+</div>
+
+<!-- SERVICES — 2-col staggered -->
+<section class="services-section section-pad" id="services">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="tag">What We Do</div>
+      <h2 class="section-title">Complete Tree Care Services for Knoxville</h2>
+      <p class="section-subtitle">From precision trimming to emergency storm response — we handle every tree on your property with care and expertise.</p>
+    </div>
+    <div class="services-grid reveal-children">
+
+      <div class="service-card">
+        <div class="service-badge">Most Requested</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><path d="M3 17l2-8 3 5 3-9 3 7 3-4 2 9"/><path d="M3 21h18"/></svg></div>
+        <h3>Tree Removal</h3>
+        <p>Safe, efficient removal of dead, dying, or hazardous trees — including tight-access properties where precision rigging is essential.</p>
+        <a href="/#contact" class="service-link" data-quote-trigger>Get a Quote <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-badge">Maintenance</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><path d="M17 3a2.828 2.828 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg></div>
+        <h3>Tree Trimming &amp; Pruning</h3>
+        <p>Expert crown thinning, deadwood removal, and structural pruning that keeps your trees healthy, shapely, and safe year-round.</p>
+        <a href="/#contact" class="service-link" data-quote-trigger>Get a Quote <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-badge">Cleanup</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div>
+        <h3>Stump Grinding &amp; Removal</h3>
+        <p>Complete stump removal below grade so you can reclaim your yard — no tripping hazards, no regrowth, no eyesores left behind.</p>
+        <a href="/#contact" class="service-link" data-quote-trigger>Get a Quote <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-badge">New Construction</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
+        <h3>Lot &amp; Land Clearing</h3>
+        <p>Full brush removal, tree clearing, and site prep for new builds, fencing, or landscaping projects on any size property.</p>
+        <a href="/#contact" class="service-link" data-quote-trigger>Get a Quote <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-badge">24/7 Response</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <h3>Emergency Tree Service</h3>
+        <p>Round-the-clock response for fallen trees, broken limbs, and immediate hazards — we answer the phone and dispatch fast.</p>
+        <a href="/#contact" class="service-link" data-quote-trigger>Get a Quote <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-badge">Insurance Friendly</div>
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+        <h3>Storm Damage Cleanup</h3>
+        <p>Fast, thorough storm damage cleanup with full documentation for insurance claims — we work directly with your adjuster.</p>
+        <a href="/#contact" class="service-link" data-quote-trigger>Get a Quote <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- COST ESTIMATOR -->
+<section class="estimator-section section-pad">
+  <div class="container">
+    <div class="estimator-wrapper">
+      <div class="section-header center reveal">
+        <div class="tag">Estimate Your Cost</div>
+        <h2 class="section-title" style="color:var(--white);">Get an Instant Ballpark Estimate</h2>
+        <p class="section-subtitle" style="color:rgba(255,255,255,0.7);margin:0 auto;">Adjust the sliders below to see a rough price range. Final quotes require an on-site visit.</p>
+      </div>
+
+      <div class="estimator-card reveal">
+        <div class="tree-visual">
+          <svg id="treeVisual" viewBox="0 0 100 120" width="80" height="96" style="overflow:visible;">
+            <rect x="45" y="60" width="10" height="40" rx="2" fill="#78716C"/>
+            <ellipse id="treeCrown" cx="50" cy="40" rx="28" ry="35" fill="#14532D"/>
+          </svg>
+        </div>
+        <div class="estimator-group">
+          <div class="estimator-label">Tree Height <span class="estimator-value" id="heightLabel">20–40 ft</span></div>
+          <div class="slider-wrap">
+            <input type="range" id="heightSlider" min="0" max="3" step="1" value="1">
+            <div class="slider-ticks"><span>Under 20ft</span><span>20–40ft</span><span>40–60ft</span><span>60ft+</span></div>
+          </div>
+        </div>
+        <div class="estimator-group">
+          <div class="estimator-label">Tree Location <span class="estimator-value" id="locationLabel">Some obstacles</span></div>
+          <div class="slider-wrap">
+            <input type="range" id="locationSlider" min="0" max="3" step="1" value="1">
+            <div class="slider-ticks"><span>Open yard</span><span>Some obstacles</span><span>Tight access</span><span>Against house</span></div>
+          </div>
+        </div>
+        <div class="estimator-group">
+          <div class="estimator-label">Service Type</div>
+          <div class="service-btns">
+            <button class="service-btn active" data-svc="removal">Removal</button>
+            <button class="service-btn" data-svc="trimming">Trimming</button>
+            <button class="service-btn" data-svc="stump">Stump Grinding</button>
+            <button class="service-btn" data-svc="emergency">Emergency</button>
+          </div>
+        </div>
+        <div class="estimate-output">
+          <div class="estimate-label">Estimated Range</div>
+          <div class="estimate-range"><span id="estLow">$800</span><span class="dash">–</span><span id="estHigh">$1,500</span></div>
+          <div class="estimate-note">Final price based on on-site assessment. Free estimates — no obligation.</div>
+          <div class="estimate-cta"><button class="btn btn-primary" data-quote-trigger>Get Your Exact Quote</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US — Donut Rings + Timeline -->
+<section class="trust-section section-pad" id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="tag">Why John's</div>
+      <h2 class="section-title">Knoxville Homeowners Trust Us With Their Trees</h2>
+      <p class="section-subtitle">Reliable, professional tree care from a local crew that treats your property like their own.</p>
+    </div>
+
+    <div class="donut-grid reveal-children">
+      <div class="donut-stat">
+        <div class="donut-wrap">
+          <svg viewBox="0 0 120 120" width="120" height="120">
+            <circle class="donut-bg" cx="60" cy="60" r="52"/>
+            <circle class="donut-fill" cx="60" cy="60" r="52" data-percent="85" style="stroke-dasharray:327;stroke-dashoffset:327;"/>
+          </svg>
+          <div class="donut-number"><span class="counter" data-target="700" data-suffix="+">0</span></div>
+        </div>
+        <div class="donut-label">Trees Removed Safely</div>
+      </div>
+      <div class="donut-stat">
+        <div class="donut-wrap">
+          <svg viewBox="0 0 120 120" width="120" height="120">
+            <circle class="donut-bg" cx="60" cy="60" r="52"/>
+            <circle class="donut-fill" cx="60" cy="60" r="52" data-percent="65" style="stroke-dasharray:327;stroke-dashoffset:327;"/>
+          </svg>
+          <div class="donut-number"><span class="counter" data-target="10" data-suffix="+">0</span></div>
+        </div>
+        <div class="donut-label">Years Serving East TN</div>
+      </div>
+      <div class="donut-stat">
+        <div class="donut-wrap">
+          <svg viewBox="0 0 120 120" width="120" height="120">
+            <circle class="donut-bg" cx="60" cy="60" r="52"/>
+            <circle class="donut-fill" cx="60" cy="60" r="52" data-percent="98" style="stroke-dasharray:327;stroke-dashoffset:327;"/>
+          </svg>
+          <div class="donut-number"><span class="counter" data-target="4" data-suffix=".9">0</span></div>
+        </div>
+        <div class="donut-label">Average Star Rating</div>
+      </div>
+      <div class="donut-stat">
+        <div class="donut-wrap">
+          <svg viewBox="0 0 120 120" width="120" height="120">
+            <circle class="donut-bg" cx="60" cy="60" r="52"/>
+            <circle class="donut-fill" cx="60" cy="60" r="52" data-percent="100" style="stroke-dasharray:327;stroke-dashoffset:327;" stroke="var(--primary-light)"/>
+          </svg>
+          <div class="donut-number"><span class="counter" data-target="0" data-suffix="">0</span></div>
+        </div>
+        <div class="donut-label">Property Damage Claims</div>
+      </div>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item"><div class="timeline-dot"></div><p><strong>ISA Certified Arborists</strong> — every job is supervised by a certified professional, not a general laborer.</p></div>
+      <div class="timeline-item"><div class="timeline-dot"></div><p><strong>$2M liability + workers' comp</strong> — full coverage protects your property and our crew on every visit.</p></div>
+      <div class="timeline-item"><div class="timeline-dot"></div><p><strong>24/7 emergency response</strong> — we answer the phone around the clock because trees don't wait for business hours.</p></div>
+      <div class="timeline-item"><div class="timeline-dot"></div><p><strong>Complete cleanup included</strong> — not a branch, chip, or leaf left behind. Your yard looks better than before we arrived.</p></div>
+      <div class="timeline-item"><div class="timeline-dot"></div><p><strong>Flat-rate transparent pricing</strong> — your quote is your price. No hidden fees, no surprise charges on invoice day.</p></div>
+      <div class="timeline-item"><div class="timeline-dot"></div><p><strong>Insurance claim documentation</strong> — we provide photos, reports, and direct adjuster coordination for storm damage work.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS — 3D Carousel -->
+<section class="reviews-section section-pad" id="reviews">
+  <div class="container">
+    <div class="section-header center reveal">
+      <div class="tag">Customer Reviews</div>
+      <h2 class="section-title">What Knoxville Homeowners Say</h2>
+      <p class="section-subtitle" style="color:rgba(255,255,255,0.7);">Real feedback from real customers across Knoxville and East Tennessee.</p>
+    </div>
+
+    <div class="carousel-viewport" id="carousel">
+      <div class="carousel-card center" data-index="0">
+        <div class="review-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        <p class="review-text">"John's crew removed two massive oaks that were leaning toward our roof. They rigged every limb with precision and didn't leave a single mark on the lawn. Best tree service we've ever used."</p>
+        <div class="review-author"><div class="review-avatar">R</div><div><div class="review-name">Robert M.</div><div class="review-date">West Knoxville · March 2025</div></div></div>
+      </div>
+      <div class="carousel-card right" data-index="1">
+        <div class="review-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        <p class="review-text">"A huge pine came down during a midnight storm and was blocking our driveway. Called John's at 1 AM and they had a crew there by sunrise. Can't recommend them enough for emergencies."</p>
+        <div class="review-author"><div class="review-avatar">A</div><div><div class="review-name">Amanda L.</div><div class="review-date">Farragut, TN · February 2025</div></div></div>
+      </div>
+      <div class="carousel-card hidden" data-index="2">
+        <div class="review-stars"><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+        <p class="review-text">"Had five stumps ground out across the property. John gave us the best price by far and the crew knocked it out in one morning. Yard looks amazing now. Highly recommend for stump work."</p>
+        <div class="review-author"><div class="review-avatar">C</div><div><div class="review-name">Chris W.</div><div class="review-date">Powell, TN · January 2025</div></div></div>
+      </div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn" id="carouselPrev" aria-label="Previous review"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg></button>
+      <button class="carousel-btn" id="carouselNext" aria-label="Next review"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg></button>
+    </div>
+    <div class="carousel-dots" id="carouselDots">
+      <div class="carousel-dot active" data-index="0"></div>
+      <div class="carousel-dot" data-index="1"></div>
+      <div class="carousel-dot" data-index="2"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREA — Map + grouped list -->
+<section class="area-section section-pad" id="service-area">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="tag">Where We Work</div>
+      <h2 class="section-title">Serving Knoxville and East Tennessee</h2>
+    </div>
+    <div class="area-inner">
+      <div class="area-map-wrap reveal">
+        <svg viewBox="0 0 500 400" id="countyMap">
+          <path d="M100 50 L230 30 L260 80 L240 160 L180 180 L100 140 Z" data-county="Anderson" data-label="Anderson County"/>
+          <path d="M230 30 L380 20 L400 90 L350 130 L260 80 Z" data-county="Union" data-label="Union County"/>
+          <path d="M380 20 L500 40 L490 150 L400 130 L400 90 Z" data-county="Jefferson" data-label="Jefferson County"/>
+          <path d="M240 160 L350 130 L400 130 L420 220 L340 260 L250 230 Z" data-county="Knox" data-label="Knox County" style="fill:var(--primary);"/>
+          <path d="M100 140 L240 160 L250 230 L200 290 L100 260 Z" data-county="Loudon" data-label="Loudon County"/>
+          <path d="M250 230 L340 260 L320 350 L200 370 L200 290 Z" data-county="Blount" data-label="Blount County"/>
+          <path d="M340 260 L420 220 L480 270 L450 360 L320 350 Z" data-county="Sevier" data-label="Sevier County"/>
+          <path d="M420 220 L490 150 L500 200 L500 270 L480 270 Z" data-county="Hamblen" data-label="Hamblen County"/>
+        </svg>
+        <div class="map-tooltip" id="mapTooltip"></div>
+      </div>
+      <div class="reveal">
+        <div class="area-group">
+          <h4>Core Service Area</h4>
+          <div class="area-pills" id="corePills">
+            <span class="area-pill" data-county="Knox">Knoxville</span>
+            <span class="area-pill" data-county="Knox">West Knoxville</span>
+            <span class="area-pill" data-county="Knox">South Knoxville</span>
+            <span class="area-pill" data-county="Knox">North Knoxville</span>
+            <span class="area-pill" data-county="Knox">Farragut</span>
+            <span class="area-pill" data-county="Knox">Powell</span>
+            <span class="area-pill" data-county="Knox">Halls</span>
+            <span class="area-pill" data-county="Knox">Fountain City</span>
+          </div>
+        </div>
+        <div class="area-group">
+          <h4>Extended Service Area</h4>
+          <div class="area-pills" id="extPills">
+            <span class="area-pill" data-county="Blount">Maryville</span>
+            <span class="area-pill" data-county="Blount">Alcoa</span>
+            <span class="area-pill" data-county="Sevier">Sevierville</span>
+            <span class="area-pill" data-county="Anderson">Oak Ridge</span>
+            <span class="area-pill" data-county="Anderson">Clinton</span>
+            <span class="area-pill" data-county="Loudon">Lenoir City</span>
+            <span class="area-pill" data-county="Loudon">Loudon</span>
+            <span class="area-pill" data-county="Knox">Karns</span>
+            <span class="area-pill" data-county="Knox">Corryton</span>
+            <span class="area-pill" data-county="Jefferson">Strawberry Plains</span>
+            <span class="area-pill" data-county="Jefferson">Jefferson City</span>
+            <span class="area-pill" data-county="Hamblen">Morristown</span>
+          </div>
+        </div>
+        <div class="area-cta">
+          <p>Not sure if we cover your area? <a href="tel:8655550200" style="color:var(--primary);font-weight:700;">Call (865) 555-0200</a> and we'll confirm in minutes.</p>
+          <button class="btn btn-dark" data-quote-trigger>Check Availability</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ — Tabbed + Searchable Flip Cards -->
+<section class="faq-section section-pad" id="faq">
+  <div class="container">
+    <div class="section-header center reveal">
+      <div class="tag">Common Questions</div>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Quick answers to what Knoxville homeowners ask most before hiring us.</p>
+    </div>
+
+    <div class="faq-search reveal">
+      <svg viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+      <input type="text" id="faqSearch" placeholder="Search questions...">
+    </div>
+
+    <div class="faq-tabs reveal" id="faqTabs">
+      <button class="faq-tab active" data-cat="all">All</button>
+      <button class="faq-tab" data-cat="pricing">Pricing</button>
+      <button class="faq-tab" data-cat="services">Services</button>
+      <button class="faq-tab" data-cat="emergency">Emergency</button>
+      <button class="faq-tab" data-cat="insurance">Insurance</button>
+      <button class="faq-tab" data-cat="general">General</button>
+    </div>
+
+    <div class="faq-grid" id="faqGrid">
+      <div class="faq-flip" data-cat="pricing" data-q="how much does tree removal cost in knoxville"><div class="faq-flip-inner"><div class="faq-front"><h3>How much does tree removal cost in Knoxville?</h3><div class="flip-hint">Click to see answer</div></div><div class="faq-back"><p>Tree removal in Knoxville typically ranges from $300 to $3,000+ depending on tree size, species, location, and access difficulty. We provide free on-site estimates with an exact quote before any work begins.</p><div class="flip-hint">Click to close</div></div></div></div>
+
+      <div class="faq-flip" data-cat="pricing" data-q="do you charge for estimates"><div class="faq-flip-inner"><div class="faq-front"><h3>Do you charge for estimates?</h3><div class="flip-hint">Click to see answer</div></div><div class="faq-back"><p>Never. All of our estimates are completely free with no obligation. We'll visit your property, assess the job, and give you a flat-rate quote on the spot.</p><div class="flip-hint">Click to close</div></div></div></div>
+
+      <div class="faq-flip" data-cat="services" data-q="what tree services do you offer"><div class="faq-flip-inner"><div class="faq-front"><h3>What tree services do you offer?</h3><div class="flip-hint">Click to see answer</div></div><div class="faq-back"><p>We offer tree removal, trimming and pruning, stump grinding, lot clearing, emergency tree service, and storm damage cleanup. If it involves a tree, we handle it.</p><div class="flip-hint">Click to close</div></div></div></div>
+
+      <div class="faq-flip" data-cat="services" data-q="can you remove a tree close to my house"><div class="faq-flip-inner"><div class="faq-front"><h3>Can you remove a tree close to my house?</h3><div class="flip-hint">Click to see answer</div></div><div class="faq-back"><p>Absolutely. Tight-access removals near structures are our specialty. We use precision rigging and sectional dismantling to safely lower every limb without risking damage to your home.</p><div class="flip-hint">Click to close</div></div></div></div>
+
+      <div class="faq-flip" data-cat="emergency" data-q="do you offer 24 7 emergency tree service"><div class="faq-flip-inner"><div class="faq-front"><h3>Do you offer 24/7 emergency service?</h3><div class="flip-hint">Click to see answer</div></div><div class="faq-back"><p>Yes. We provide around-the-clock emergency response for fallen trees, broken limbs, and immediate hazards. Call us anytime and a real person answers — not a voicemail.</p><div class="flip-hint">Click to close</div></div></div></div>
+
+      <div class="faq-flip" data-cat="emergency" data-q="how fast can you respond to an emergency"><div class="faq-flip-inner"><div class="faq-front"><h3>How fast can you respond to an emergency?</h3><div class="flip-hint">Click to see answer</div></div><div class="faq-back"><p>For active emergencies in our core service area, we typically have a crew on-site within 2–4 hours. During major storms, response times may vary, but we prioritize immediate safety hazards.</p><div class="flip-hint">Click to close</div></div></div></div>
+
+      <div class="faq-flip" data-cat="insurance" data-q="can you help with my insurance claim"><div class="faq-flip-inner"><div class="faq-front"><h3>Can you help with my insurance claim?</h3><div class="flip-hint">Click to see answer</div></div><div class="faq-back"><p>Yes. We provide complete documentation — photos, detailed reports, and itemized invoices — and we'll coordinate directly with your insurance adjuster to make the process as smooth as possible.</p><div class="flip-hint">Click to close</div></div></div></div>
+
+      <div class="faq-flip" data-cat="insurance" data-q="are you licensed and insured"><div class="faq-flip-inner"><div class="faq-front"><h3>Are you licensed and insured?</h3><div class="flip-hint">Click to see answer</div></div><div class="faq-back"><p>Yes. John's Tree Care is fully licensed with $2M in general liability coverage and workers' compensation insurance. We can provide proof of insurance on request for any job.</p><div class="flip-hint">Click to close</div></div></div></div>
+
+      <div class="faq-flip" data-cat="general" data-q="do i need a permit to remove a tree in knoxville"><div class="faq-flip-inner"><div class="faq-front"><h3>Do I need a permit to remove a tree in Knoxville?</h3><div class="flip-hint">Click to see answer</div></div><div class="faq-back"><p>In most cases, no permit is required for removing trees on private residential property in Knox County. However, some HOAs and historic districts have restrictions. We'll advise you during the estimate.</p><div class="flip-hint">Click to close</div></div></div></div>
+
+      <div class="faq-flip" data-cat="general" data-q="do you clean up after the job"><div class="faq-flip-inner"><div class="faq-front"><h3>Do you clean up after the job?</h3><div class="flip-hint">Click to see answer</div></div><div class="faq-back"><p>Always. Full cleanup is included with every job — we haul away all debris, branches, and wood chips. Your property will look better than before we arrived. We never leave a mess.</p><div class="flip-hint">Click to close</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section section-pad" id="contact">
+  <div class="container">
+    <div class="cta-inner">
+      <h2>Ready to Get Your Trees Handled?</h2>
+      <p>Serving Knoxville and East Tennessee — same-week appointments available.</p>
+      <div class="cta-actions">
+        <a href="tel:8655550200" class="cta-phone">(865) 555-0200</a>
+        <button class="btn btn-dark" data-quote-trigger>Get a Free Estimate</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <div class="footer-logo-icon"><svg viewBox="0 0 24 24" fill="white"><path d="M17 8C8 10 5.9 16.17 3.82 21H5.71C7 18 8 16.12 9 15c2 2 4 6 4 6h2s-1-4-3-6c1-1 2.5-2 5-2 0 0-1.5 1-2 3 .67-.33 1.5-.5 2-.5C18 15 20 12.5 20 9c-1.5 1-2.5 2-4 2 .5-1 2-3 2-3H17Z"/></svg></div>
+          <div class="footer-logo-text">John's Tree Care</div>
+        </div>
+        <p class="footer-desc">Professional tree removal, trimming, stump grinding, and emergency storm response for Knoxville homeowners and businesses. Locally owned and ISA certified.</p>
+        <div class="footer-contact">
+          <a href="tel:8655550200"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8Z"/></svg> (865) 555-0200</a>
+        </div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="/#services">Tree Removal</a></li>
+          <li><a href="/#services">Tree Trimming &amp; Pruning</a></li>
+          <li><a href="/#services">Stump Grinding</a></li>
+          <li><a href="/#services">Lot &amp; Land Clearing</a></li>
+          <li><a href="/#services">Emergency Tree Service</a></li>
+          <li><a href="/#services">Storm Damage Cleanup</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="/#about">About John's</a></li>
+          <li><a href="/#reviews">Customer Reviews</a></li>
+          <li><a href="/#service-area">Service Area</a></li>
+          <li><a href="/#faq">FAQ</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Service Area</h4>
+        <ul class="footer-links">
+          <li><a href="/#service-area">Knoxville, TN</a></li>
+          <li><a href="/#service-area">Farragut, TN</a></li>
+          <li><a href="/#service-area">Maryville, TN</a></li>
+          <li><a href="/#service-area">Oak Ridge, TN</a></li>
+        </ul>
+        <h4 style="margin-top:20px;">Hours</h4>
+        <ul class="footer-links">
+          <li>Mon–Sat: 7 AM – 6 PM</li>
+          <li>Emergency: 24/7</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <span>&copy; 2025 John's Tree Care. All rights reserved. Knoxville, TN.</span>
+      <span>Site by <a href="https://victreewebsites.com" target="_blank" rel="noopener">VicTree Websites</a></span>
+    </div>
+  </div>
+</footer>
+
+<!-- QUOTE MODAL -->
+<div class="modal-overlay" id="quoteModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <div class="modal-header">
+      <h3 id="modalTitle">Get Your Free Tree Care Estimate</h3>
+      <button class="modal-close" id="modalClose" aria-label="Close modal">&#10005;</button>
+    </div>
+    <div class="modal-body" id="modalBody">
+      <form id="quoteForm" novalidate>
+        <div class="modal-field"><label for="mName">Full Name</label><input type="text" id="mName" placeholder="Jane Smith" required></div>
+        <div class="modal-field"><label for="mPhone">Phone Number</label><input type="tel" id="mPhone" placeholder="(865) 555-0000" required></div>
+        <div class="modal-field"><label for="mEmail">Email Address</label><input type="email" id="mEmail" placeholder="jane@email.com" required></div>
+        <div class="modal-field"><label for="mService">Service Needed</label>
+          <select id="mService" required>
+            <option value="" disabled selected>Select a service</option>
+            <option>Tree Removal</option>
+            <option>Tree Trimming &amp; Pruning</option>
+            <option>Stump Grinding &amp; Removal</option>
+            <option>Lot &amp; Land Clearing</option>
+            <option>Emergency Tree Service</option>
+            <option>Storm Damage Cleanup</option>
+            <option>Multiple Services</option>
+            <option>Not Sure — Need Advice</option>
+          </select>
+        </div>
+        <div class="modal-field"><label for="mMessage">Details (optional)</label><textarea id="mMessage" placeholder="Tell us about your trees or property..."></textarea></div>
+        <button type="submit" class="modal-submit">Send My Request</button>
+      </form>
+      <div class="modal-thankyou" id="modalThankYou">
+        <svg class="thankyou-check" viewBox="0 0 72 72"><circle cx="36" cy="36" r="33"/><path d="M22 36l10 10 18-20"/></svg>
+        <h3 id="thankYouName">Thank You!</h3>
+        <p>We received your request and will be in touch within 24 hours.</p>
+        <button class="btn btn-primary" id="modalCloseThanks">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MOBILE STICKY CTA -->
+<div class="mobile-cta" id="mobileCta">
+  <a href="tel:8655550200">Call Now</a>
+  <button data-quote-trigger>Free Estimate</button>
+</div>
+
+<!-- SCHEMA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "John's Tree Care",
+  "description": "Professional tree removal, trimming, stump grinding, and emergency storm response in Knoxville, TN and surrounding areas.",
+  "url": "https://johnstreecare.com",
+  "telephone": "+18655550200",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Knoxville",
+    "addressRegion": "TN",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 35.9606,
+    "longitude": -83.9207
+  },
+  "areaServed": ["Knoxville","West Knoxville","Farragut","Powell","Maryville","Alcoa","Sevierville","Oak Ridge","Clinton","Lenoir City"],
+  "openingHours": "Mo-Sa 07:00-18:00",
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "89"
+  }
+}
+</script>
+
+<!-- JAVASCRIPT -->
+<script>
+  /* ---- Mobile Menu ---- */
+  const menuToggle = document.getElementById('menuToggle');
+  const mobileMenu = document.getElementById('mobileMenu');
+  menuToggle.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+
+  /* ---- Navbar Scroll Effect ---- */
+  const navbar = document.querySelector('.navbar');
+  window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 60), { passive: true });
+
+  /* ---- Quote Modal ---- */
+  const modal = document.getElementById('quoteModal');
+  const modalClose = document.getElementById('modalClose');
+  const modalCloseThanks = document.getElementById('modalCloseThanks');
+  const quoteForm = document.getElementById('quoteForm');
+  const thankYouDiv = document.getElementById('modalThankYou');
+  function openModal() { modal.classList.add('open'); document.body.style.overflow = 'hidden'; const fi = modal.querySelector('input, select, textarea'); if (fi) setTimeout(() => fi.focus(), 100); }
+  function closeModal() { modal.classList.remove('open'); document.body.style.overflow = ''; quoteForm.style.display = 'block'; thankYouDiv.classList.remove('show'); quoteForm.reset(); }
+  document.addEventListener('click', e => { if (e.target.closest('[data-quote-trigger]')) openModal(); });
+  modalClose.addEventListener('click', closeModal);
+  modalCloseThanks.addEventListener('click', closeModal);
+  modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && modal.classList.contains('open')) closeModal(); });
+  quoteForm.addEventListener('submit', e => {
+    e.preventDefault();
+    const n = document.getElementById('mName').value.trim().split(' ')[0] || 'There';
+    document.getElementById('thankYouName').textContent = `Thank You, ${n}!`;
+    quoteForm.style.display = 'none';
+    thankYouDiv.classList.add('show');
+  });
+
+  /* ---- Cost Estimator ---- */
+  const heightSlider = document.getElementById('heightSlider');
+  const locationSlider = document.getElementById('locationSlider');
+  const heightLabels = ['Under 20ft', '20–40ft', '40–60ft', '60ft+'];
+  const locationLabels = ['Open yard', 'Some obstacles', 'Tight access', 'Against house'];
+  const locationMultipliers = [1.0, 1.15, 1.3, 1.5];
+  const costMatrix = {
+    removal:   [{l:300,h:800},{l:800,h:1500},{l:1500,h:3000},{l:2500,h:5000}],
+    trimming:  [{l:150,h:400},{l:400,h:800},{l:800,h:1500},{l:1200,h:2500}],
+    stump:     [{l:100,h:250},{l:200,h:450},{l:350,h:700},{l:500,h:1000}],
+    emergency: [{l:500,h:1200},{l:1200,h:2500},{l:2500,h:5000},{l:4000,h:8000}]
+  };
+  let activeService = 'removal';
+  const treeCrown = document.getElementById('treeCrown');
+  const treeVisual = document.getElementById('treeVisual');
+  const crownSizes = [{ry:20,cy:55,h:70},{ry:30,cy:42,h:90},{ry:38,cy:34,h:110},{ry:45,cy:26,h:130}];
+
+  function updateEstimate() {
+    const hi = parseInt(heightSlider.value);
+    const li = parseInt(locationSlider.value);
+    document.getElementById('heightLabel').textContent = heightLabels[hi];
+    document.getElementById('locationLabel').textContent = locationLabels[li];
+    const base = costMatrix[activeService][hi];
+    const mult = locationMultipliers[li];
+    const low = Math.round(base.l * mult / 50) * 50;
+    const high = Math.round(base.h * mult / 50) * 50;
+    document.getElementById('estLow').textContent = '$' + low.toLocaleString();
+    document.getElementById('estHigh').textContent = '$' + high.toLocaleString();
+    const cs = crownSizes[hi];
+    treeCrown.setAttribute('ry', cs.ry);
+    treeCrown.setAttribute('cy', cs.cy);
+    treeVisual.style.height = cs.h + 'px';
+  }
+  heightSlider.addEventListener('input', updateEstimate);
+  locationSlider.addEventListener('input', updateEstimate);
+  document.querySelectorAll('.service-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.service-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeService = btn.dataset.svc;
+      updateEstimate();
+    });
+  });
+  updateEstimate();
+
+  /* ---- Donut Ring Counters ---- */
+  function animateDonut(el) {
+    const pct = parseFloat(el.dataset.percent);
+    const circ = 2 * Math.PI * 52;
+    const offset = circ - (circ * pct / 100);
+    el.style.strokeDashoffset = offset;
+  }
+  function animateCounter(el) {
+    const target = parseInt(el.dataset.target);
+    const suffix = el.dataset.suffix || '';
+    if (target === 0) { el.textContent = '0' + suffix; return; }
+    const duration = 2000;
+    const step = 16;
+    const steps = Math.ceil(duration / step);
+    let current = 0;
+    const inc = target / steps;
+    const timer = setInterval(() => {
+      current = Math.min(current + inc, target);
+      el.textContent = Math.floor(current) + suffix;
+      if (current >= target) clearInterval(timer);
+    }, step);
+  }
+  const donutObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.querySelectorAll('.donut-fill').forEach(animateDonut);
+        entry.target.querySelectorAll('.counter').forEach(animateCounter);
+        donutObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  document.querySelectorAll('.donut-grid').forEach(g => donutObserver.observe(g));
+
+  /* ---- Timeline Scroll Animation ---- */
+  const tlObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); tlObserver.unobserve(entry.target); }
+    });
+  }, { threshold: 0.2, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('.timeline-item').forEach((item, i) => {
+    item.style.transitionDelay = (i * 150) + 'ms';
+    tlObserver.observe(item);
+  });
+
+  /* ---- Reviews Carousel ---- */
+  const cards = document.querySelectorAll('.carousel-card');
+  const dots = document.querySelectorAll('.carousel-dot');
+  let currentSlide = 0;
+  const totalSlides = cards.length;
+  let autoPlayTimer;
+
+  function setSlide(index) {
+    currentSlide = ((index % totalSlides) + totalSlides) % totalSlides;
+    cards.forEach((card, i) => {
+      card.className = 'carousel-card';
+      if (i === currentSlide) card.classList.add('center');
+      else if (i === (currentSlide + 1) % totalSlides) card.classList.add('right');
+      else if (i === (currentSlide - 1 + totalSlides) % totalSlides) card.classList.add('left');
+      else card.classList.add('hidden');
+    });
+    dots.forEach((dot, i) => dot.classList.toggle('active', i === currentSlide));
+  }
+  function startAutoPlay() { autoPlayTimer = setInterval(() => setSlide(currentSlide + 1), 6000); }
+  function stopAutoPlay() { clearInterval(autoPlayTimer); }
+
+  document.getElementById('carouselNext').addEventListener('click', () => { stopAutoPlay(); setSlide(currentSlide + 1); startAutoPlay(); });
+  document.getElementById('carouselPrev').addEventListener('click', () => { stopAutoPlay(); setSlide(currentSlide - 1); startAutoPlay(); });
+  dots.forEach(dot => dot.addEventListener('click', () => { stopAutoPlay(); setSlide(parseInt(dot.dataset.index)); startAutoPlay(); }));
+  document.getElementById('carousel').addEventListener('mouseenter', stopAutoPlay);
+  document.getElementById('carousel').addEventListener('mouseleave', startAutoPlay);
+  startAutoPlay();
+
+  /* ---- Service Area Map Interaction ---- */
+  const tooltip = document.getElementById('mapTooltip');
+  const mapPaths = document.querySelectorAll('#countyMap path');
+  const allPills = document.querySelectorAll('.area-pill');
+
+  mapPaths.forEach(path => {
+    path.addEventListener('mouseenter', e => {
+      const county = path.dataset.county;
+      tooltip.textContent = path.dataset.label;
+      tooltip.classList.add('show');
+      allPills.forEach(p => p.classList.toggle('active', p.dataset.county === county));
+    });
+    path.addEventListener('mousemove', e => {
+      const rect = path.closest('svg').parentElement.getBoundingClientRect();
+      tooltip.style.left = (e.clientX - rect.left + 12) + 'px';
+      tooltip.style.top = (e.clientY - rect.top - 30) + 'px';
+    });
+    path.addEventListener('mouseleave', () => {
+      tooltip.classList.remove('show');
+      allPills.forEach(p => p.classList.remove('active'));
+      document.querySelector('#countyMap path[data-county="Knox"]').style.fill = 'var(--primary)';
+    });
+  });
+
+  allPills.forEach(pill => {
+    pill.addEventListener('mouseenter', () => {
+      const county = pill.dataset.county;
+      mapPaths.forEach(p => {
+        if (p.dataset.county === county) p.classList.add('active');
+      });
+      allPills.forEach(p => p.classList.toggle('active', p.dataset.county === county));
+    });
+    pill.addEventListener('mouseleave', () => {
+      mapPaths.forEach(p => p.classList.remove('active'));
+      allPills.forEach(p => p.classList.remove('active'));
+      document.querySelector('#countyMap path[data-county="Knox"]').style.fill = 'var(--primary)';
+    });
+  });
+
+  /* ---- FAQ Tabs + Search + Flip ---- */
+  const faqCards = document.querySelectorAll('.faq-flip');
+  const faqGrid = document.getElementById('faqGrid');
+
+  // Flip cards
+  faqCards.forEach(card => {
+    card.addEventListener('click', () => card.classList.toggle('flipped'));
+  });
+
+  // Tabs
+  document.querySelectorAll('.faq-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.faq-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const cat = tab.dataset.cat;
+      faqCards.forEach(card => {
+        card.classList.remove('flipped');
+        card.classList.toggle('hidden', cat !== 'all' && card.dataset.cat !== cat);
+      });
+    });
+  });
+
+  // Search
+  document.getElementById('faqSearch').addEventListener('input', e => {
+    const query = e.target.value.toLowerCase().trim();
+    document.querySelectorAll('.faq-tab').forEach(t => t.classList.remove('active'));
+    document.querySelector('.faq-tab[data-cat="all"]').classList.add('active');
+    faqCards.forEach(card => {
+      card.classList.remove('flipped');
+      card.classList.toggle('hidden', query && !card.dataset.q.includes(query));
+    });
+  });
+
+  /* ---- Scroll Reveal ---- */
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); revealObserver.unobserve(entry.target); }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal, .reveal-children').forEach(el => revealObserver.observe(el));
+
+  /* ---- Mobile Sticky CTA ---- */
+  const mobileCta = document.getElementById('mobileCta');
+  const heroSection = document.querySelector('.hero');
+  const mobileCtaObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (window.innerWidth <= 768) {
+        mobileCta.classList.toggle('show', !entry.isIntersecting);
+      }
+    });
+  }, { threshold: 0 });
+  mobileCtaObserver.observe(heroSection);
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) mobileCta.classList.remove('show');
+  });
+</script>
+
+</body>
+</html>
